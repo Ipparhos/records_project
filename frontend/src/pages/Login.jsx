@@ -65,6 +65,14 @@ export default function Login() {
           Don't have an account? <Link to="/register">Create one</Link>
         </p>
       </div>
+
+      <div className="about-section">
+        <h3>About the Dashboard</h3>
+        <p>
+          The Athletics Records Dashboard is a private tool designed for athletes to track, analyze, and visualize their personal bests across various venues and events. 
+          Manage your progress and compare your achievements over time.
+        </p>
+      </div>
     </div>
   );
 }

@@ -242,6 +242,22 @@ form-error, .field-error {
 .auth-header p { color: var(--text-muted); }
 .auth-footer { text-align: center; margin-top: 2rem; color: var(--text-muted); }
 
+.about-section {
+  max-width: 440px;
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+.about-section h3 {
+  color: var(--text-main);
+  margin-bottom: 1rem;
+}
+.about-section p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 /* ── Dashboard (Personal Bests) ── */
 .pb-grid {
   display: grid;
@@ -347,3 +363,30 @@ form-error, .field-error {
 .analytics-card { padding: 1rem 1.5rem; text-align: center; } 
 .analytics-card h4 { margin-bottom: 0.5rem; color: var(--text-muted); font-weight: 500; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px; } 
 .analytics-value { font-size: 2rem; font-weight: 700; }
+
+/* ── Footer ── */
+.main-footer {
+  padding: 3rem 2rem;
+  background-color: var(--bg-color-alt);
+  border-top: 1px solid var(--border-color);
+  margin-top: auto;
+  text-align: center;
+}
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.footer-links a {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+.footer-links a:hover {
+  color: var(--text-main);
+  text-decoration: none;
+}
